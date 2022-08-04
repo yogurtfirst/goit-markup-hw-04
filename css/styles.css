@@ -246,8 +246,8 @@ body {
     justify-content: center;
     width: 270px;
     height: 120px;
-    padding: 25px 100px;
-    /* align-items: center; */
+    border-radius: 4px;
+    align-items: center;
 }
 
 .qualities-list {
@@ -338,7 +338,10 @@ body {
 
 .team-soc-link {
     display: flex;
-    padding: 12px;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     fill: var(--item-color-main);
 }
@@ -510,9 +513,12 @@ body {
 .footer-soc-link {
     background-color: var(--item-bgcolor-soc);
     fill: var(--item-color-contrast);
-    padding: 12px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-soc-link:hover,
