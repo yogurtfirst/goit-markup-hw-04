@@ -166,19 +166,12 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    fill: var(--font-color-secondary);
-}
-
-.header-contact:visited {
-    color: var(--font-color-secondary);
-    fill: var(--font-color-secondary);
+    fill: currentColor;
 }
 
 .header-contact:hover,
-.header-contact:focus,
-.header-contact:active {
+.header-contact:focus {
     color: var(--font-color-accent);
-    fill: var(--font-color-accent);
 }
 
 /*--------------- HERO ---------------*/
@@ -369,15 +362,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--item-color-main);
+    color: var(--item-color-main);
+    border: 1px solid currentColor;
     border-radius: 4px;
-    fill: var(--item-color-main);
+    fill: currentColor;
 }
 
 .clients-link:hover,
 .clients-link:active {
-    fill: var(--item-color-accent);
-    border: 1px solid var(--item-color-accent);
+    color: var(--item-color-accent);
 }
 
 /*--------------- PORTFOLIO ---------------*/
