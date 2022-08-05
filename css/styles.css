@@ -369,7 +369,7 @@ body {
 }
 
 .clients-link:hover,
-.clients-link:active {
+.clients-link:focus {
     color: var(--item-color-accent);
 }
 
